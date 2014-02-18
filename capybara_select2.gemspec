@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = CapybaraSelect2::VERSION
   spec.authors       = ["Miles Z. Sterrett"]
   spec.email         = ["miles@mileszs.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Interact with select2 select boxes with capyabara}
+  spec.summary       = %q{Interact with select2 select boxes with capyabara}
   spec.homepage      = ""
   spec.license       = "MIT"
 
