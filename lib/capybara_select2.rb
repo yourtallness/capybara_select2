@@ -40,8 +40,8 @@ module Capybara
       end
 
       def search!(value)
-        page.find(:xpath, "//body").find("input.select2-input").set(value)
-        page.execute_script(%|$("input.select2-input:visible").keyup();|)
+          self.container.find("input.select2-input").set(value)
+          page.execute_script(%|$("input.select2-input:visible").keyup();|)
       end
     end
   end
